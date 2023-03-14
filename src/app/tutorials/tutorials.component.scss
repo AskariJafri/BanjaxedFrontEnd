@@ -1,0 +1,13 @@
+.tutorials {
+  display: flex;
+  // border: 1px solid;
+  .right {
+    width: 80%;
+    // border: 1px solid;
+  }
+  .left {
+    width: 20%;
+    padding-top: 10%;
+    // border: 1px solid;
+  }
+}

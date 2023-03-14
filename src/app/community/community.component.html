@@ -1,0 +1,17 @@
+<div class="community">
+  <h1>Community</h1>
+  <img style="height: 300px; width: 600px;" src="http://localhost:8080/community.png" alt="">
+  <div class="buttonContainer">
+    <div class="button"><button>button1</button></div>
+    <div class="button"><button>button1</button></div>
+    <div class="button"><button>button1</button></div>
+    <div class="button"><button>button1</button></div>
+  </div>
+  <br>
+  <br>
+  <div>
+    <div *ngFor="let item of comments; let i = index" class="rowDiv" class="container">
+      <app-comment-view [name]="item.name" [comment]="item.comment"></app-comment-view>
+    </div>
+  </div>
+</div>

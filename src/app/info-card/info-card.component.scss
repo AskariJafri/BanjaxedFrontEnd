@@ -1,0 +1,16 @@
+.card-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #70b340;
+  padding: 20px;
+  width: 100%;
+  border-radius: 25px;
+  color: white;
+  // box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  button{
+    border-radius: 7px;
+    height: 40px;
+  }
+}

@@ -1,0 +1,24 @@
+.banner-container{
+  display: flex;
+  align-items:stretch;
+  background-color: #70b340;
+  color:white
+}
+.left-container{
+  width: 60%;
+  display: flex;
+  padding:5%;
+  flex-direction: column;
+  button{
+    width: 30%;
+    height:45px;
+    border-radius: 15px;
+    border:none
+  }
+}
+.right-container{
+  margin: 10%;
+  // margin-top: -7%;
+  flex-direction: column;
+  width:40%;
+}

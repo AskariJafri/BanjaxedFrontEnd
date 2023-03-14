@@ -1,0 +1,19 @@
+.profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p{
+    margin-top: -20px;
+  }
+
+  .profileSvg{
+    height: 250px;
+    width: 250px;
+    margin-top:80px ;
+    padding: 8px;
+    border: 4px solid;
+    border-color: #8ed958;
+    border-radius: 50%;
+  }
+
+}

@@ -1,0 +1,17 @@
+<div class="card-container">
+  <div class="image-container">
+    <img style="height:100%; width: 100%;" src="http://localhost:8080/681563-01.png">
+  </div>
+  <div class="card-content">
+    <h3>
+      {{heading}}
+    </h3>
+    <p>{{paragraph}}</p>
+  </div>
+  <div class="card-footer">
+    <h2>{{footerText}}</h2>
+  </div>
+  <button *ngIf= "buttonText.length>0">
+    {{buttonText}}
+  </button>
+</div>

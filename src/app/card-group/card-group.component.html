@@ -1,0 +1,6 @@
+<div class="group-container container">
+  <h1>{{heading}}</h1>
+    <div *ngFor="let item of cardData; let i = index" class="rowDiv">
+      <app-info-card [heading]=item.heading [paragraph]=item.paragraph [footerText]=item.footerText></app-info-card>
+    </div>
+</div>

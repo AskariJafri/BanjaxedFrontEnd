@@ -1,0 +1,22 @@
+.container{
+  width:90%;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  flex: 0 0 33.333333%;
+  margin-left: 0;
+}
+
+h1{
+  // color: #70b340;
+  margin-left:30%;
+  font-size: 64px;
+  margin-bottom: 0;
+  margin-top:10%;
+}
