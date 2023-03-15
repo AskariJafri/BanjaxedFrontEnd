@@ -1,0 +1,8 @@
+<div>
+  <div>
+    Course Title
+  </div>
+  <div *ngFor="let item of cardData; let i = index" class="rowDiv">
+    <app-info-card [heading]=item.title [paragraph]=item.description [footerText]=item.footerText [id]=item.id></app-info-card>
+  </div>
+</div>

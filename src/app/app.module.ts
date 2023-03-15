@@ -19,6 +19,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { TutorialsComponent } from './tutorials/tutorials.component';
 import { CommunityComponent } from './community/community.component';
 import { CommentViewComponent } from './comment-view/comment-view.component';
+import { LessonsComponent } from './lessons/lessons.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,8 @@ import { CommentViewComponent } from './comment-view/comment-view.component';
     ProfileComponent,
     TutorialsComponent,
     CommunityComponent,
-    CommentViewComponent
+    CommentViewComponent,
+    LessonsComponent
   ],
   imports: [
     BrowserModule,
