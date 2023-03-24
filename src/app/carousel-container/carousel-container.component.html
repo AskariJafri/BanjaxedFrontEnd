@@ -4,15 +4,14 @@
       <app-info-card [heading]=item.heading [paragraph]=item.paragraph [footerText]=item.footerText></app-info-card>
     </li>
   </ul> -->
-<div class="container">
+<div class="container" >
   <h1>{{cardHeading}}</h1>
-  <p>{{cardContent.id}}</p>
   <swiper [slidesPerView]="3" [spaceBetween]="1" (swiper)="onSwiper($event)" (slideChange)="onSlideChange()"
     [navigation]="true" [pagination]="{ clickable: true }" [scrollbar]="{ draggable: true }">
     <ng-template swiperSlide *ngFor="let item of cardContent; let i = index">
       <div style="width: 90%;margin-left: 6%; padding: 10%;">
         <app-info-card [heading]=item.title
-          [paragraph]=item.description [footerText]=item.footerText [buttonText]=buttonText [id]=item.id>
+          [paragraph]=item.description [footerText]=item.footerText [buttonText]=buttonText [id]=item.id >
         </app-info-card>
       </div>
       <br>

@@ -12,10 +12,11 @@
     <p>Artificial Intelligence</p>
     <p>Data Science</p>
   </div>
-
   <div class="right">
     <div>
-      <app-card-group [heading]="h4"></app-card-group>
+      <app-card-group [heading]="h4" [cardData]=cardData.getCourseFromLessons>
+      </app-card-group>
     </div>
   </div>
 </div>
+

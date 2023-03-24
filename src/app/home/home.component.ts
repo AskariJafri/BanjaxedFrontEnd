@@ -18,7 +18,7 @@ export class HomeComponent {
 
     var graphql = JSON.stringify({
       query:
-        'query {\r\n courses{\r\n     id,\r\n     title,\r\n     description\r\n}\r\n}',
+      "\r\nquery{\r\n    courses{\r\n        id,\r\n        title,\r\n        description,\r\n    }\r\n}",
       variables: {},
     });
     var requestOptions: any = {
@@ -36,7 +36,6 @@ export class HomeComponent {
       })
       .catch((error) => console.log('error', error));
     // after fetching data from the server we assign the array to a class variable
-    // console.log("card data",this.cardData)
   }
   onIdClick(id: string) {
     this.id = id;
